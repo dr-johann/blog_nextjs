@@ -4,13 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^5.4.2",
+    "antd": "^5.4.6",
+    "dayjs": "^1.11.7",
     "next": "13.3.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-syntax-highlighter": "^15.5.0"
   }
 }
